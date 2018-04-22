@@ -52,8 +52,14 @@ quizWindow.add(image2);
 		// 12. pack the quiz window
 quizWindow.pack();
 		// 13. ask another question
-String 
+String q2 = JOptionPane.showInputDialog("Who is this?");
 		// 14+ check answer, say if correct or incorrect, etc.
+if(q2.equals("Sherlock Holmes")) {
+	System.out.println("CORRECT");
+}
+else { 
+	System.out.println("INCORRECT");
+}
 
 	}
 
